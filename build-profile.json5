@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\lenovo\\.ohos\\config\\auto_debug_example_todoitem_com.example.example_todoitem_2850086000488164490.cer",
+          "storePassword": "0000001B9A2A15B6FC0567A724416DCC8A005CD01103A4260BB8891B24E9BF2B81529C50A4DA804182F6FF",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC5356DA35E89DB8A3DAF50A3B0EB2A460B8AF7C67348A7A8A1220B8781F92E81C937FB1359D449",
+          "profile": "C:\\Users\\lenovo\\.ohos\\config\\auto_debug_example_todoitem_com.example.example_todoitem_2850086000488164490.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\lenovo\\.ohos\\config\\auto_debug_example_todoitem_com.example.example_todoitem_2850086000488164490.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
