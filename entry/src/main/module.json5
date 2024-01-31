@@ -16,26 +16,37 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ts",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:h_tool_cword",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ]
-      },{
+      },
+      {
         "name": "SecondAbility",
         "srcEntry": "./ets/entryability/SecondAbility.ts",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:h_tool_eword",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+//        "skills": [
+//          {
+//            "entities": [
+//              "entity.system.home"
+//            ],
+//            "actions": [
+//              "action.system.home"
+//            ]
+//          }
+//        ]
+      },
+      {
+        "name": "ChineseAbility",
+        "srcEntry": "./ets/entryability/ChineseAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:h_tool_eword",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
