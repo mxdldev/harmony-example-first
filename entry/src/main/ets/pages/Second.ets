@@ -11,7 +11,7 @@ struct Second {
           Text('语文');
           Text('数学');
           Text('英语');
-          Text('音乐');
+          Text('音乐1');
         }.alignSelf(ItemAlign.Start).padding(10)
 
         Image($r('app.media.tab_main_sc')).width('90%').height(80)
