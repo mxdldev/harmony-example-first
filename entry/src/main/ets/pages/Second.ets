@@ -10,7 +10,7 @@ struct Second {
           Text('首页');
           Text('语文');
           Text('数学');
-          Text('英语');
+          Text('英语1');
           Text('音乐1');
         }.alignSelf(ItemAlign.Start).padding(10)
 
